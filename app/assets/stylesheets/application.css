@@ -15,9 +15,10 @@
  */
 
 img{
+  display: block;
   padding:0;
   margin:0;
-  display: block;
+
 }
 
 body {
@@ -25,8 +26,57 @@ body {
   font-weight:300;
   font-size: 1vw;
   margin:0;
+
 }
 
-h2{
+h1{
+  display:block;
+
+}
+
+
+.menu-item{
+  margin:.7vw;
+  font-size:2.25vw;
+  font-weight:600;
+}
+
+.body-item{
+  margin:1.45vw;
+  font-size:1.5vw;
+  font-weight:600;
   text-align:center;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.long-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu{
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(71, 164, 15, 0.6);
+}
+
+.body{
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  background: rgba(87, 71, 10, 0.5);
+}
+
+.body-content{
+  float: left;
+  padding-left: 25vw;
 }
